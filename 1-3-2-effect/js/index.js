@@ -1,21 +1,24 @@
-$("#Thumb1").click(function(){
-    $("#Pic1").fadeIn();
-    // $("#Pic2").fadeOut();
-    // $("#Pic3").fadeOut();
-    // $("#Pic4").fadeOut();
-    // $("#Pic5").fadeOut();
+$ ('#Thumb1').click(function() {
+    $('#Pic1').fadeIn();
+    $('#Pic2, #Pic3, #Pic4, #Pic5').fadeOut ();
+});
 
-    $("#Pic2, #Pic3, #Pic4, #Pic5,")
+$ ('#Thumb2').click(function() {
+    $('#Pic2').fadeIn();
+    $('#Pic3, #Pic4, #Pic5, #Pic1').fadeOut ();
+});
 
-})
+$ ('#Thumb3').click(function() {
+    $('#Pic3').fadeIn();
+    $('#Pic2, #Pic4, #Pic5, #Pic1').fadeOut ();
+});
 
-$("#Thumb2").click(function(){
-    $("#Pic2").fadeIn();
-    // $("#Pic2").fadeOut();
-    // $("#Pic3").fadeOut();
-    // $("#Pic4").fadeOut();
-    // $("#Pic5").fadeOut();
+$ ('#Thumb4').click(function() {
+    $('#Pic4').fadeIn();
+    $('#Pic3, #Pic2, #Pic5, #Pic1').fadeOut ();
+});
 
-    $("#Pic1, #Pic3, #Pic4, #Pic5,")
-
-})
+$ ('#Thumb5').click(function() {
+    $('#Pic5').fadeIn();
+    $('#Pic3, #Pic4, #Pic2, #Pic1').fadeOut ();
+});
